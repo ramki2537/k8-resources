@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: ramki2537/deployment:1.0.0
+        image: ramki2537/deployment:3.0.0
         ports:
         - containerPort: 80
 ---
