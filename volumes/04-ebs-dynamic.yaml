@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: ebs-dynamic
 spec:
-  storageClassName: "ebs-sc " # Empty string must be explicitly set otherwise default storageclass will be set
+  storageClassName: "ebs-sc" # Empty string must be explicitly set otherwise default storageclass will be set
   accessModes:
     - ReadWriteOnce
   resources:
